@@ -1,1 +1,118 @@
-﻿
+﻿body {
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 14px;
+    min-width: 320px;
+}
+
+/*BUTTONS*/
+.my-btn {
+    background-color: #ffffa7;
+    border: none;
+    font-family: "Lato-Black", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;
+}
+
+.my-btn-lg {
+    padding: 18px 30px;
+}
+
+.btn-md {
+    padding: 10px 30px;
+}
+
+.btn-radios {
+    border-radius: 25px;
+}
+
+/*HEADER*/
+header {
+    height: 680px;
+    background-image: url('../img/Layer-1.jpg');
+    background-color: #98d6d1;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    height: 94px;
+    line-height: 94px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+    .menu li {
+        display: inline-block;
+        padding: 0 25px;
+    }
+
+        .menu li a {
+            color: #fff;
+            padding: 12px;
+            border: 2px solid transparent;
+        }
+            .menu li a:hover,
+            .menu li a:focus {
+                text-decoration: none;
+                border: 2px solid #fff;
+                border-radius: 26px;
+                background-color: transparent;
+            }
+
+a.my-logos {
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: "Montserrat-Regular", sans-serif;
+    color: #fff;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+    a.my-logos:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+.myblk-users {
+    clear: both;
+} 
+.myblk-users img {
+    border-radius: 25px;
+}
+
+.myblk-users i {
+    margin-left: 5px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.myblk-title{
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+    .myblk-title h1 {
+        letter-spacing: 2px;
+        font-family: "Chunkfive", sans-serif;
+        text-transform: uppercase;
+        font-size: 56px;
+    }
+    .myblk-title b {
+        color:#00a2a5;
+    }
+
+    .myblk-title button {
+        margin-top: 20px;
+    }
