@@ -256,12 +256,13 @@ h4.my-recom {
     }
 
     .lg-main:before {
+        content: "";
         position: absolute;
-        content: "\25c0";
-        color: rgba(244, 249, 252, 0.93);
-        top: 50%;
-        left: -23px;
-        font-size: 30px;
+        left: -10px;
+        top: 45%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid rgba(244, 249, 252, 0.93);
     }
 
 .separat-block {
@@ -270,12 +271,13 @@ h4.my-recom {
 }
 
     .separat-block::after {
+        content: "";
         position: absolute;
-        content: "\25b6";
-        color: rgba(244, 249, 252, 0.93);
-        top: 50%;
-        right: -23px;
-        font-size: 30px;
+        right: -10px;
+        top: 45%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(244, 249, 252, 0.93);
     }
 
     .separat-block::before {
@@ -290,9 +292,10 @@ h4.my-recom {
     background: rgba(244, 249, 252, 0.93);
     border-radius: 50%;
 }
-.separat-round:before {
-    display: none;
-}
+
+    .separat-round:before {
+        display: none;
+    }
 
     .separat-round img {
         padding: 7%;
@@ -322,3 +325,199 @@ h4.my-recom {
 .mlink-rght {
     left: 75%;
 }
+
+.my-pagination {
+    text-align: center;
+    font-family: "Chunkfive", sans-serif;
+    font-size: 12pt;
+}
+
+.my-pagination-nav {
+    display: inline-block;
+    margin: 60px 0;
+}
+
+.my-pagination li {
+    display: inline;
+    padding: 10px;
+    line-height: 0px;
+}
+
+    .my-pagination li:nth-last-child(1) {
+        padding: 0px;
+    }
+
+.my-pagination a {
+    color: #aeacad;
+}
+
+    .my-pagination a:hover,
+    .my-pagination a:focus {
+        display: inline-block;
+        color: #01a3a5;
+        font-size: 22pt;
+        text-decoration: none;
+    }
+
+/*SETTINGS*/
+
+.my-settings {
+    background: #fff;
+    padding-bottom: 60px;
+}
+
+.title-set {
+    color: #29d9c3;
+    margin: 60px 0 60px 0;
+}
+
+    .title-set h1 {
+        text-transform: none;
+        letter-spacing: 4px;
+        margin-bottom: 60px;
+    }
+
+    .title-set b {
+        color: #01a2a5;
+        margin-left: 10px;
+    }
+
+    .title-set p {
+        color: #898989;
+    }
+
+.mblk-set {
+    background-color: #ffffa7;
+    width: 100%;
+}
+
+    .mblk-set form {
+        font-family: "Lato-Regular", sans-serif;
+        color: #29dac4;
+        margin: 0 20px 0 20px;
+    }
+
+        .mblk-set form input[type=date] {
+            border: none;
+            background: none;
+        }
+
+        .mblk-set form label {
+        }
+
+.mblk-set-hed {
+    background-color: #29d9c2;
+    background-image: url('../img/Shape-27.png');
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+    .mblk-set-hed h4 {
+        padding: 3% 0 0 40%;
+        color: #feffff;
+        font-size: 16px;
+    }
+
+/*TABLE*/
+
+.my-table {
+    border-collapse: separate;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 50px 40px 50px;
+    border-spacing: 0 5px;
+}
+
+    .my-table > thead > tr > th,
+    .my-table > tbody > tr > th,
+    .my-table > tfoot > tr > th,
+    .my-table > thead > tr > td,
+    .my-table > tbody > tr > td,
+    .my-table > tfoot > tr > td {
+        padding: 8px;
+        line-height: 25px;
+        vertical-align: middle;
+    }
+
+.my-theder {
+    color: #28d9bf;
+}
+
+    .my-theder > td:last-child {
+        text-align: right;
+    }
+
+.my-table > table > tbody > tr.my-theder > td {
+    border: none;
+}
+
+tr.my-set-inf {
+    background: #fff;
+}
+
+.my-set-inf > td {
+    border: solid 2px #d5d57d;
+}
+
+    .my-set-inf > td:first-child {
+        border-right: none;
+        width: 100px;
+    }
+
+    .my-set-inf > td:last-child {
+        border-left: none;
+        text-align: right;
+    }
+
+    .my-set-inf > td:nth-child(2n) {
+        border-left: none;
+    }
+
+    .my-set-inf > td:nth-last-child(2) {
+        border-right: none;
+    }
+
+input.my-data {
+    position: relative;
+    left: 50px;
+    background: none;
+    border: none;
+    width: 130px;
+}
+
+tr.my-set-inf td:first-child {
+    border-top-left-radius: 5px;
+}
+
+tr.my-set-inf td:last-child {
+    border-top-right-radius: 5px;
+}
+
+tr.my-set-inf td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+tr.my-set-inf td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.my-table-sub {
+    background: #f5e99d;
+}
+
+.my-table-sub > td {
+    width: 200px;
+}
+
+.my-table-sub > td button{
+    background: none;
+    border: 1px;
+}
+
+/*FORM-SET*/
+
