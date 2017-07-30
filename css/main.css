@@ -428,25 +428,16 @@ h4.my-recom {
     border-collapse: separate;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 20px;
     padding: 10px 50px 40px 50px;
-    border-spacing: 0 5px;
 }
-
-    .my-table > thead > tr > th,
-    .my-table > tbody > tr > th,
-    .my-table > tfoot > tr > th,
-    .my-table > thead > tr > td,
-    .my-table > tbody > tr > td,
-    .my-table > tfoot > tr > td {
-        padding: 8px;
-        line-height: 25px;
-        vertical-align: middle;
-    }
 
 .my-theder {
     color: #28d9bf;
 }
+
+    .my-theder > td {
+        height: 40px;
+    }
 
     .my-theder > td:last-child {
         text-align: right;
@@ -456,23 +447,30 @@ h4.my-recom {
     border: none;
 }
 
-tr.my-set-inf {
+.my-set-inf {
     background: #fff;
+    height: 80px;
 }
 
-.my-set-inf > td {
-    border: solid 2px #d5d57d;
-}
+    .my-set-inf > td {
+        font-family: "Lato-Regular", sans-serif;
+        border: solid 2px #d5d57d;
+        font-size: 22px;
+        color: #ababab;
+    }
 
     .my-set-inf > td:first-child {
         border-right: none;
         width: 100px;
     }
 
-    .my-set-inf > td:last-child {
-        border-left: none;
-        text-align: right;
-    }
+        .my-set-inf > td:last-child {
+            border-left: none;
+            text-align: right;
+            font-size: 18px;
+            color: #c8c8c8;
+            padding-right: 15px;
+        }
 
     .my-set-inf > td:nth-child(2n) {
         border-left: none;
@@ -482,42 +480,81 @@ tr.my-set-inf {
         border-right: none;
     }
 
+    .my-set-inf img{
+        margin: 15px;
+    }
+
 input.my-data {
-    position: relative;
-    left: 50px;
+    text-align: right;
     background: none;
     border: none;
     width: 130px;
 }
 
-tr.my-set-inf td:first-child {
+.my-set-inf td:first-child {
     border-top-left-radius: 5px;
 }
 
-tr.my-set-inf td:last-child {
+.my-set-inf td:last-child {
     border-top-right-radius: 5px;
 }
 
-tr.my-set-inf td:first-child {
+.my-set-inf td:first-child {
     border-bottom-left-radius: 5px;
 }
 
-tr.my-set-inf td:last-child {
+.my-set-inf td:last-child {
     border-bottom-right-radius: 5px;
 }
 
-.my-table-sub {
+.add-sub-menu {
+    margin-left: 12px;
+    width: 97%;
     background: #f5e99d;
+    border-bottom-left-radius: 5px;
 }
 
-.my-table-sub > td {
-    width: 200px;
+    .add-sub-menu span {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        padding: 11px;
+        color: #afa25c;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+        .add-sub-menu span:first-child  {
+            border-bottom: 1px solid #d5d57d;
+        }
+
+.add-sub {
+    color: #d8cb7c;
+    font-size: 16px;
 }
 
-.my-table-sub > td button{
-    background: none;
-    border: 1px;
-}
+    .add-sub i {
+        font-size: 24px;
+    }
 
+    .add-sub button {
+        vertical-align: middle;
+        background: none;
+        border: 1px;
+    }
+
+    .add-sub span {
+        background: #f5e99d;
+        position: relative;
+        float: right;
+        padding: 8px;
+        margin-right: 8px;
+        width: 35%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 /*FORM-SET*/
 
