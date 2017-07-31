@@ -31,6 +31,17 @@ p {
     border-radius: 25px;
 }
 
+.btn-dowload {
+    background: #c2f37e;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-print {
+    background: #3edbc8;
+    color: #fff;
+    text-transform: uppercase;
+}
 /*HEADER*/
 header {
     height: 680px;
@@ -389,6 +400,7 @@ h4.my-recom {
 .mblk-set {
     background-color: #ffffa7;
     width: 100%;
+    padding-bottom: 80px;
 }
 
     .mblk-set form {
@@ -428,7 +440,7 @@ h4.my-recom {
     border-collapse: separate;
     width: 100%;
     max-width: 100%;
-    padding: 10px 50px 40px 50px;
+    padding: 10px 50px 20px 50px;
 }
 
 .my-theder {
@@ -509,7 +521,7 @@ input.my-data {
 
 .add-sub-menu {
     margin-left: 12px;
-    width: 97%;
+    width: 96%;
     background: #f5e99d;
     border-bottom-left-radius: 5px;
 }
@@ -549,12 +561,131 @@ input.my-data {
         position: relative;
         float: right;
         padding: 8px;
-        margin-right: 8px;
+        right: 10px;
         width: 35%;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         text-align: center;
         margin-bottom: 15px;
     }
+
+.my-drag {
+    border-radius: 5px;
+    padding: 24px;
+    text-align: center;
+    background: #fbf6a4;
+    border: 2px dashed #d5d57d;
+}
+
+    .my-drag span {
+        color: #d8cb7c;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 14px;
+    }
+
+.choice-dowload{
+    margin: 20px 0;
+    text-align: right;
+}
+
+    .choice-dowload i {
+        margin-right: 6px;
+        font-size: 17px;
+    }
+
+    .choice-dowload button {
+        margin-left: 20px;
+    }
+
+.my-destination{
+    padding: 0 20px;
+
+}
+
+    .my-destination h4 {
+        font-weight: 700;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 40px;
+        color: #29d9c1;
+    }
+
+        .my-destination h4::after {
+            content: "";
+            position: absolute;
+            top: 50px;
+            right: 43%;
+            height: 3px;
+            width: 70px;
+            background: #29d9c1;
+        }
+
+    .sort-pan span {
+        color: #29d9c2;
+        font-weight: 700;
+    }
+
+
+    .sort-pan select {
+        border: none;
+        color: #bababa;
+    }
+
+        .sort-pan select > option {
+            background: #ffffa7;
+            color: #4d4d4d;
+            font-size: 13px;
+        }
+
+.sort-pan i {
+    color: #bababa;
+    float: right;
+    margin-right: 10px;
+}
+
+    .sort-pan i:hover,
+    .sort-pan i:focus {
+        color: #bababa;
+    }
+
+.sort-result {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    color: #c6c6c6;
+}
+
+.res-details {
+    width: 326px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .res-details h3 {
+        margin: 0 0 5px 0;
+    }
+
+    .res-details span {
+        font-size: 12px;
+        color: #d2d2d2;
+    }
+    .res-details b {
+        font-size: 12px;
+        color: #24c6b7;
+    }
+
+.res-links {
+    width: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.res-links a{
+    color: #64d2c7;
+    font-size: 12px;
+    font-weight: 700;
+}
 /*FORM-SET*/
 
