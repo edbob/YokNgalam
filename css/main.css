@@ -457,9 +457,9 @@ h4.my-recom {
         height: 40px;
     }
 
-    .my-theder > td:last-child {
-        text-align: right;
-    }
+        .my-theder > td:last-child {
+            text-align: right;
+        }
 
 .my-table > table > tbody > tr.my-theder > td {
     border: none;
@@ -477,10 +477,10 @@ h4.my-recom {
         color: #ababab;
     }
 
-    .my-set-inf > td:first-child {
-        border-right: none;
-        width: 100px;
-    }
+        .my-set-inf > td:first-child {
+            border-right: none;
+            width: 100px;
+        }
 
         .my-set-inf > td:last-child {
             border-left: none;
@@ -490,15 +490,15 @@ h4.my-recom {
             padding-right: 15px;
         }
 
-    .my-set-inf > td:nth-child(2n) {
-        border-left: none;
-    }
+        .my-set-inf > td:nth-child(2n) {
+            border-left: none;
+        }
 
-    .my-set-inf > td:nth-last-child(2) {
-        border-right: none;
-    }
+        .my-set-inf > td:nth-last-child(2) {
+            border-right: none;
+        }
 
-    .my-set-inf img{
+    .my-set-inf img {
         margin: 15px;
     }
 
@@ -543,7 +543,7 @@ input.my-data {
     }
 
 
-        .add-sub-menu span:first-child  {
+        .add-sub-menu span:first-child {
             border-bottom: 1px solid #d5d57d;
         }
 
@@ -590,7 +590,7 @@ input.my-data {
         padding: 14px;
     }
 
-.choice-dowload{
+.choice-dowload {
     margin: 20px 0;
     text-align: right;
 }
@@ -604,9 +604,8 @@ input.my-data {
         margin-left: 20px;
     }
 
-.my-destination{
+.my-destination {
     padding: 0 20px;
-
 }
 
     .my-destination h4 {
@@ -627,22 +626,22 @@ input.my-data {
             background: #29d9c1;
         }
 
-    .sort-pan span {
-        color: #29d9c2;
-        font-weight: 700;
+.sort-pan span {
+    color: #29d9c2;
+    font-weight: 700;
+}
+
+
+.sort-pan select {
+    border: none;
+    color: #bababa;
+}
+
+    .sort-pan select > option {
+        background: #ffffa7;
+        color: #4d4d4d;
+        font-size: 13px;
     }
-
-
-    .sort-pan select {
-        border: none;
-        color: #bababa;
-    }
-
-        .sort-pan select > option {
-            background: #ffffa7;
-            color: #4d4d4d;
-            font-size: 13px;
-        }
 
 .sort-pan i {
     color: #bababa;
@@ -677,6 +676,7 @@ input.my-data {
         font-size: 12px;
         color: #d2d2d2;
     }
+
     .res-details b {
         font-size: 12px;
         color: #24c6b7;
@@ -688,11 +688,11 @@ input.my-data {
     vertical-align: middle;
 }
 
-.res-links a{
-    color: #64d2c7;
-    font-size: 12px;
-    font-weight: 700;
-}
+    .res-links a {
+        color: #64d2c7;
+        font-size: 12px;
+        font-weight: 700;
+    }
 
 /*CONTACT*/
 .my-contact {
@@ -734,23 +734,26 @@ input.my-data {
     .my-adress li {
         margin-bottom: 10px;
     }
-    .my-adress li:first-child {
-       margin-bottom: 0px;
+
+        .my-adress li:first-child {
+            margin-bottom: 0px;
+        }
+
+        .my-adress li:nth-child(2) {
+            margin: 0 0 10px 20px;
+        }
+
+    .my-adress b {
+        color: #e1eb81;
+        font-style: italic;
+        text-transform: uppercase;
     }
 
-    .my-adress li:nth-child(2) {
-        margin: 0 0 10px 20px;
-    }
-
-.my-adress b{
-    color: #e1eb81;
-    font-style: italic;
-    text-transform: uppercase;
-}
-/*FORM-SET*/
+/*FORMS*/
 #contact {
     text-align: right;
     margin-bottom: 60px;
+    width: 550px;
 }
 
     #contact input {
@@ -759,6 +762,7 @@ input.my-data {
         border-radius: 5px;
         padding: 20px;
         margin: 10px;
+        font-style: italic;
     }
 
         #contact input[type=email] {
@@ -770,6 +774,7 @@ input.my-data {
         }
 
     #contact textarea {
+        font-style: italic;
         border: 1px solid #fff;
         background: #fff;
         border-radius: 5px;
@@ -777,3 +782,162 @@ input.my-data {
         width: 525px;
         margin: 10px;
     }
+
+/*Subscribe-form*/
+.my-subscrib {
+    padding: 30px 0;
+    background-image: linear-gradient(60deg, #bef273 43%, #b1e567 40.5%);
+}
+
+#my-form-Subscribe {
+    margin: 40px 0 0 0;
+    width: 350px;
+}
+
+    #my-form-Subscribe input[type=text] {
+        background-color: #fff;
+        border: 1px solid #7ba83f;
+        padding: 15px 25px;
+        border-radius: 3px;
+        font-style: italic;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #my-form-Subscribe button {
+        position: relative;
+        bottom: 48px;
+        left: 302px;
+        height: 48px;
+        width: 47px;
+        background-color: #00a2a5;
+        border: none;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        color: #fff;
+    }
+
+/*Subscribe-block*/
+.my-subscrib {
+}
+
+    .my-subscrib h1 {
+        margin-top: 38px;
+        margin-bottom: 0px;
+        color: #fff;
+        font-family: "Chunkfive", sans-serif;
+        font-size: 50px;
+    }
+
+    .my-subscrib p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+/*footer*/
+
+.my-footer {
+    height: 260px;
+    padding: 10px 0;
+    background-image: url('../img/footer-bg.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.my-foot-nav {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #525053;
+    list-style-type: disc;
+}
+
+    .my-foot-nav a {
+        color: #525053;
+    }
+
+        .my-foot-nav a:hover,
+        .my-foot-nav a:focus {
+            color: #525053;
+            text-decoration: none;
+        }
+
+    .my-foot-nav li:first-child {
+        list-style-type: none;
+    }
+
+    .my-foot-nav li {
+        float: left;
+        margin-right: 20px;
+    }
+
+.mblok-info {
+    margin-top: 10px;
+    float: right;
+    font-size: 12px;
+}
+
+    .mblok-info i {
+        padding: 1px 0 0 2px;
+    }
+
+    .mblok-info li {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+        padding: 5px;
+        background: #3d3741;
+        border-radius: 25px;
+        border: 1px solid #3d3741;
+        margin-right: 10px;
+    }
+
+        .mblok-info li:hover,
+        .mblok-info li:focus {
+            background: #ffffa7;
+            border: 1px solid #ffffa7;
+            cursor: pointer;
+        }
+
+    .mblok-info a {
+        color: #2f2933;
+    }
+
+        .mblok-info a:hover,
+        .mblok-info a:focus {
+            color: #2f2933;
+        }
+
+.my-copyright {
+    font-size: 12px;
+    margin-top: 180px;
+    text-align: center;
+    color: #525053;
+}
+
+.my-foot-color span {
+    display: block;
+    width: 20%;
+    float: left;
+    padding: 10px 0;
+} 
+.color-1 {
+    background: #ffffa7;
+}
+
+.color-2 {
+    background: #bef272;
+}
+
+.color-3 {
+    background: #29d9c2;
+}
+
+.color-4 {
+    background: #00a2a5;
+}
+
+.color-5 {
+    background: #2f2933;
+}
