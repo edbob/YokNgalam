@@ -2,18 +2,114 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .my-menu li {
+        padding: 0 5px;
+    }
+
+    .lg-main {
+        position: initial;
+    }
+
+    .separat-round {
+        position: absolute;
+        height: 40%;
+        width: 32%;
+        top: 38%;
+        left: 40%;
+        border-radius: 110px;
+    }
+
+        .separat-round img {
+            padding: 21%;
+        }
+
+    .res-details {
+        width: 89%;
+    }
+
+    .res-links {
+        text-align: center;
+    }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width:767px) {
+
+    nav {
+        line-height: 70px;
+    }
+
+    #top_menu {
+        background: #fff;
+        border-top: 2px solid #ababab;
+        border-bottom: 2px solid #ababab;
+    }
+
+    .my-menu {
+        float: none;
+    }
+
+        .my-menu li {
+            display: block;
+            text-align: center;
+        }
+
+            .my-menu li a {
+                color: #ababab;
+            }
+
+        .my-menu > li > a:hover,
+        .my-menu > li > a:focus {
+            border: 2px solid #ababab;
+        }
+
+    .myblk-users i {
+        color: #ababab;
+    }
+
+    .myblk-users {
+        position: relative;
+        bottom: 340px;
+    }
+
+    .my-btn-bars i {
+        color: #fff;
+    }
+
+    .lg-main {
+        position: initial;
+    }
+
+        .lg-main p {
+            font-size: 12px;
+        }
+
+    .separat-round {
+        position: absolute;
+        height: 40%;
+        width: 32%;
+        top: 38%;
+        left: 40%;
+        border-radius: 110px;
+    }
+
+        .separat-round img {
+            padding: 21%;
+        }
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .res-links {
+        display: block;
+
+    }
 }
 
 /* Custom, iPhone Retina */

@@ -67,26 +67,30 @@ nav {
     z-index: 999;
 }
 
-.menu {
+.my-btn-bars {
+    color: #fff;
+}
+
+.my-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: left;
 }
 
-    .menu li {
+    .my-menu li {
         display: inline-block;
         padding: 0 25px;
     }
 
-        .menu li a {
+        .my-menu li a {
             color: #fff;
             padding: 12px;
             border: 2px solid transparent;
         }
 
-            .menu li a:hover,
-            .menu li a:focus {
+            .my-menu li a:hover,
+            .my-menu li a:focus {
                 text-decoration: none;
                 border: 2px solid #fff;
                 border-radius: 26px;
@@ -108,7 +112,7 @@ a.my-logos {
     }
 
 .myblk-users {
-    clear: both;
+    float:right
 }
 
     .myblk-users img {
@@ -526,8 +530,7 @@ input.my-data {
 }
 
 .add-sub-menu {
-    margin-left: 12px;
-    width: 96%;
+    margin: 0 2%;
     background: #f5e99d;
     border-bottom-left-radius: 5px;
 }
@@ -567,8 +570,7 @@ input.my-data {
         position: relative;
         float: right;
         padding: 8px;
-        right: 10px;
-        width: 35%;
+        right: 2%;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         text-align: center;
@@ -663,7 +665,7 @@ input.my-data {
 }
 
 .res-details {
-    width: 326px;
+    width: 82%;
     display: table-cell;
     vertical-align: middle;
 }
@@ -807,7 +809,7 @@ input.my-data {
     #my-form-Subscribe button {
         position: relative;
         bottom: 48px;
-        left: 302px;
+        left: 303px;
         height: 48px;
         width: 47px;
         background-color: #00a2a5;
